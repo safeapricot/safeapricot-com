@@ -1,32 +1,55 @@
 <style>
 .abone-button {
-  background-color:rgb(13, 132, 19);
+  background-color:rgb(196, 11, 11);
   border: 1px solid white;
   color: white;
   height: 36px;
   width: 110px;
-  border-radius: 10px;
+  border-radius: 2px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
   margin-right: 8px;
+  transition: opacity 0.15s;
 }
+
+.abone-button:hover {
+  opacity: 0.8;
+}
+.abone-button:active {
+  opacity: 0.4;
+}
+
 .katil-button {
-  background-color:rgb(109, 0, 119);
-  border: 1px solid rgb(109, 0, 119);
+  background-color:rgb(22, 135, 206);
+  border: 1px solid rgb(22, 135, 206);
   color: rgb(255, 255, 255);
   height: 36px;
-  width: 110px;
-  border-radius: 10px;
+  width: 75px;
+  border-radius: 16px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: slim;
   cursor: pointer;
   margin-right: auto;
+  transition: 
+  background-color 0.15s,
+  color 0.15s,
+  opacity 0.15s,
+  box-shadow 0.15s;
+}
+.katil-button:hover {
+  color: rgb(22, 135, 206);
+  background-color: rgb(255, 255, 255);
+  opacity: 0.8;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+} 
+.katil-button:active {
+  opacity: 0.4;
 }
 </style>
 
